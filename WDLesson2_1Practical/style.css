@@ -30,10 +30,5 @@ ul, ol, li {
   font-family: "Comic Sans MS";
 }
 /* Chalenge 6: Change the background color of the div to blue, color of the text to white and the weight of the font to bold. 
-div {
-  background-color: blue;
-  color: white;
-  font-weight: bold;
-}
-      
+     
 Hint:  You can specify several CSS rules for one element by separating the rules with commas.  Look at some example on w3schools */
