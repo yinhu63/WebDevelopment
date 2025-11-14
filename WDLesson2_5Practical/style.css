@@ -1,9 +1,15 @@
 /* Challenge 8: Change the type of font to Arial for all elements */
-
+* {
+    font-family: Arial;
+}
 /* Challenge 9: Change the background color for all elements with a class of banner.  Choose a color
                 using rgb( )
 */
-
+.banner {
+    background-color: rgb(173, 216, 230); /* light blue */
+    padding: 20px;
+    text-align: center;     
+}
 /* Challenge 10: Change the background color for all elements with a class of subbanner.  Choose a color
                 using a hexdecimal value. 
 */
