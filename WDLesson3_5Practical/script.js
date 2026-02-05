@@ -4,7 +4,11 @@
       3) Display the results in the appropriate element
 */
 function recArea(){
+        let 1 = document.getElementById("length");
+        let w = document.getElementById("width");
+        let output = doucument.getElementById("output");
 
+        let area = parseFloat(1.value)
 }
 
 function recPerimeter(){
