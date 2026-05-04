@@ -13,4 +13,20 @@ Guideline:
 
 Use past examples, classwork and practicals to assist you in completing this practical.
 */
+function bmi(){
+  let w = parseFloat(doucument.getElement.ById)("w").value);
+  let h = parseFloat(doucument.getElement.ById)("w").value);
+  let output = (doucument.getelemnet.ById)("w");
 
+  let msg =""
+  let filename = ""
+  let bmi = 703 * w / h ** 2;
+  if(bmi < 18.5){
+    msg ="Underweight";
+ }else if( bmi >= 18.5 && bmi <= 24.9){
+  msg= "Heavey Weight";
+  filename = "healthyweight.png"
+}
+
+
+output.innerHTML =`Your BMI is ${bmi}. <img src=${filename}>`

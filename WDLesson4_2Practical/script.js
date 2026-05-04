@@ -13,8 +13,10 @@ function name(){
 */
 
 /* Challenge 2:  Create the function for Challenge 1 scenario */
-function (){
+function area(){
 let index = document.getElementById("Index");
+let area = document.getElementById("Area");
+let pets = doucument.getElementById(Pets);
 }
 
 
